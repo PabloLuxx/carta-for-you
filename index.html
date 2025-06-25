@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Para mi princesita ❤️‍🩹✨</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body {
+      background: linear-gradient(to bottom, #ffe4e1, #fff0f5);
+      font-family: 'Segoe UI', sans-serif;
+      text-align: center;
+      color: #333;
+      padding: 2rem;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container {
+      background: rgba(255,255,255,0.9);
+      border-radius: 20px;
+      padding: 2rem;
+      max-width: 600px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease;
+    }
+    h1 {
+      font-size: 2.5rem;
+      color: #e91e63;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+    }
+    .heart {
+      font-size: 3rem;
+      color: #e25555;
+      animation: beat 1.2s infinite;
+      margin: 1rem 0;
+    }
+    @keyframes beat {
+      0%,100% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; }
+    }
+    .signature {
+      margin-top: 1.5rem;
+      font-weight: bold;
+      font-size: 1.1rem;
+    }
+    .audio-container {
+      margin-top: 1.5rem;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      height: 60px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Para mí princesita ❤️‍🩹✨</h1>
+    <p>Sé que tal vez hoy fue un día bueno pero aún así cansado, también sé que cada vez te esfuerzas mucho más y eso es bonito porque tú eres bonita y buapota jsjs, pero es hora de ir a mimil y cerrar esos lindos ojitos preciosos mi vida, te amooo muchote más que hoy y más que ayer incluso más que mañana ❤️‍🩹✨</p>
+    <div class="heart">❤️‍🩹✨</div>
+    <div class="signature">Con amor, <br>Pablo 💌</div>
+    <div class="audio-container">
+      <iframe src="https://www.youtube.com/embed/xdfik2FRhck?autoplay=1&loop=1&playlist=xdfik2FRhck" allow="autoplay"></iframe>
+    </div>
+  </div>
+
+</body>
+</html>
